@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>
+            Realtime Image Identification
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <center>
+            <h2 class="btn btn-primary heading1" >
+Real Time Image Identification App
+<hr>
+<center>
+    <div class="heading2 col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+We are using MobileNet as a Model
+<br>
+<div class="heading3"> 
+MobileNet model is trained on 
+<br>
+more than 1.3 million images
+</div>
+
+    </div>
+</center>
+            </h2>
+            <br>
+            <br>
+            <p class="btn btn-success">
+Object: <span id="object_name">
+
+</span>
+            </p>
+<br>
+<br>
+            <p class="btn btn-success result">
+Accuracy:<span id="object_accuracy">
+
+</span>
+            </p>
+        </center>
+        <div class="footer">
+            Developed By Ojaswi Goel
+        </div>
+        <script src="main.js"></script>
+
+    </body>
+</html>
